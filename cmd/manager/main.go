@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	mdbv1 "github.com/mongodb/mongodb-kubernetes-operator/api/v1"
-	"github.com/mongodb/mongodb-kubernetes-operator/controllers"
-	"github.com/mongodb/mongodb-kubernetes-operator/controllers/construct"
+	mdbv1 "github.com/dxzxomy/mongodb-kubernetes-operator/api/v1"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/controllers"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/controllers/construct"
 	"go.uber.org/zap"
 	"k8s.io/apimachinery/pkg/runtime"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"

@@ -1,4 +1,4 @@
-module github.com/mongodb/mongodb-kubernetes-operator
+module github.com/dxzxomy/mongodb-kubernetes-operator
 
 go 1.18
 

@@ -3,12 +3,12 @@ package client
 import (
 	"context"
 
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/kube/pod"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/kube/pod"
 
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/kube/configmap"
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/kube/secret"
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/kube/service"
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/kube/statefulset"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/kube/configmap"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/kube/secret"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/kube/service"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/kube/statefulset"
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

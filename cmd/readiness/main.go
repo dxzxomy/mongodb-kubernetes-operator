@@ -7,10 +7,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/readiness/config"
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/readiness/headless"
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/readiness/health"
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/util/contains"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/readiness/config"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/readiness/headless"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/readiness/health"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/util/contains"
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"
 

@@ -6,13 +6,13 @@ import (
 	"testing"
 	"time"
 
-	mdbv1 "github.com/mongodb/mongodb-kubernetes-operator/api/v1"
+	mdbv1 "github.com/dxzxomy/mongodb-kubernetes-operator/api/v1"
 
-	. "github.com/mongodb/mongodb-kubernetes-operator/test/e2e/util/mongotester"
+	. "github.com/dxzxomy/mongodb-kubernetes-operator/test/e2e/util/mongotester"
 
-	e2eutil "github.com/mongodb/mongodb-kubernetes-operator/test/e2e"
-	"github.com/mongodb/mongodb-kubernetes-operator/test/e2e/mongodbtests"
-	setup "github.com/mongodb/mongodb-kubernetes-operator/test/e2e/setup"
+	e2eutil "github.com/dxzxomy/mongodb-kubernetes-operator/test/e2e"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/test/e2e/mongodbtests"
+	setup "github.com/dxzxomy/mongodb-kubernetes-operator/test/e2e/setup"
 )
 
 func TestMain(m *testing.M) {

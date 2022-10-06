@@ -5,11 +5,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/mongodb/mongodb-kubernetes-operator/test/e2e/util/mongotester"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/test/e2e/util/mongotester"
 
-	e2eutil "github.com/mongodb/mongodb-kubernetes-operator/test/e2e"
-	"github.com/mongodb/mongodb-kubernetes-operator/test/e2e/mongodbtests"
-	setup "github.com/mongodb/mongodb-kubernetes-operator/test/e2e/setup"
+	e2eutil "github.com/dxzxomy/mongodb-kubernetes-operator/test/e2e"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/test/e2e/mongodbtests"
+	setup "github.com/dxzxomy/mongodb-kubernetes-operator/test/e2e/setup"
 	corev1 "k8s.io/api/core/v1"
 )
 

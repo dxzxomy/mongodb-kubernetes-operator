@@ -3,7 +3,7 @@ package merge
 import (
 	"testing"
 
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/automationconfig"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/automationconfig"
 	"github.com/stretchr/testify/assert"
 )
 

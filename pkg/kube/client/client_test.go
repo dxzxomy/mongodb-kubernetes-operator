@@ -6,7 +6,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/kube/configmap"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/kube/configmap"
 	"github.com/stretchr/testify/assert"
 	corev1 "k8s.io/api/core/v1"
 	k8sClient "sigs.k8s.io/controller-runtime/pkg/client"

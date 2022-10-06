@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mongodb/mongodb-kubernetes-operator/cmd/readiness/testdata"
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/readiness/config"
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/readiness/health"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/cmd/readiness/testdata"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/readiness/config"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/readiness/health"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes/fake"

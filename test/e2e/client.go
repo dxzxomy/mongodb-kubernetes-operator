@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/util/generate"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/util/generate"
 
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
@@ -19,7 +19,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/envtest"
 
-	mdbv1 "github.com/mongodb/mongodb-kubernetes-operator/api/v1"
+	mdbv1 "github.com/dxzxomy/mongodb-kubernetes-operator/api/v1"
 
 	// Needed for running tests on GCP
 	"k8s.io/client-go/dynamic"

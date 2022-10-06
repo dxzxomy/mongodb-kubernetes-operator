@@ -22,7 +22,7 @@ limitations under the License.
 package v1
 
 import (
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/automationconfig"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/automationconfig"
 	"k8s.io/apimachinery/pkg/runtime"
 )
 

@@ -2,10 +2,10 @@ package replica_set
 
 import (
 	"fmt"
-	e2eutil "github.com/mongodb/mongodb-kubernetes-operator/test/e2e"
-	"github.com/mongodb/mongodb-kubernetes-operator/test/e2e/mongodbtests"
-	setup "github.com/mongodb/mongodb-kubernetes-operator/test/e2e/setup"
-	"github.com/mongodb/mongodb-kubernetes-operator/test/e2e/util/mongotester"
+	e2eutil "github.com/dxzxomy/mongodb-kubernetes-operator/test/e2e"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/test/e2e/mongodbtests"
+	setup "github.com/dxzxomy/mongodb-kubernetes-operator/test/e2e/setup"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/test/e2e/util/mongotester"
 	"github.com/mongodb/mongodb-kubernetes-operator/test/e2e/util/wait"
 	"github.com/stretchr/testify/assert"
 	"os"

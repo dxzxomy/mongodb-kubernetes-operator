@@ -4,11 +4,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/kube/probes"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/kube/probes"
 
 	"k8s.io/apimachinery/pkg/api/resource"
 
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/kube/container"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/kube/container"
 	"github.com/stretchr/testify/assert"
 	corev1 "k8s.io/api/core/v1"
 )

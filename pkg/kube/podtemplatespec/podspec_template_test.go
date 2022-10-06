@@ -3,11 +3,11 @@ package podtemplatespec
 import (
 	"testing"
 
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/util/merge"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/util/merge"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/kube/container"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/kube/container"
 	"github.com/stretchr/testify/assert"
 	corev1 "k8s.io/api/core/v1"
 )

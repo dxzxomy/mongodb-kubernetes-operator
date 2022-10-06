@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/util/envvar"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/util/envvar"
 
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/kube/resourcerequirements"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/kube/resourcerequirements"
 
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/kube/lifecycle"
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/kube/probes"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/kube/lifecycle"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/kube/probes"
 	"github.com/stretchr/testify/assert"
 	corev1 "k8s.io/api/core/v1"
 )

@@ -5,7 +5,7 @@ plugins:
   manifests.sdk.operatorframework.io/v2: {}
   scorecard.sdk.operatorframework.io/v2: {}
 projectName: mko-v1
-repo: github.com/mongodb/mongodb-kubernetes-operator
+repo: github.com/dxzxomy/mongodb-kubernetes-operator
 resources:
 - api:
     crdVersion: v1
@@ -20,6 +20,6 @@ resources:
   domain: mongodb.com
   group: mongodbcommunity
   kind: SimpleMongoDBCommunity
-  path: github.com/mongodb/mongodb-kubernetes-operator/api/v1alpha1
+  path: github.com/dxzxomy/mongodb-kubernetes-operator/api/v1alpha1
   version: v1alpha1
 version: "3"

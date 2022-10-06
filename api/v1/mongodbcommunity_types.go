@@ -8,13 +8,13 @@ import (
 
 	"github.com/stretchr/objx"
 
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/authentication/scram"
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/kube/annotations"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/authentication/scram"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/kube/annotations"
 
 	appsv1 "k8s.io/api/apps/v1"
 
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/automationconfig"
-	"github.com/mongodb/mongodb-kubernetes-operator/pkg/util/scale"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/automationconfig"
+	"github.com/dxzxomy/mongodb-kubernetes-operator/pkg/util/scale"
 
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
